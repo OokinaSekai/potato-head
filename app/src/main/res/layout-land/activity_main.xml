@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     >
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -12,11 +12,11 @@
         android:layout_height="wrap_content"
         android:text="Mr.Potato Head"
         android:textSize="35sp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_marginLeft="50dp"
+        />
 
     <AbsoluteLayout
         android:id="@+id/pic"
-        android:layout_centerInParent="true"
         android:layout_below="@+id/text"
         android:layout_width="350sp"
         android:layout_height="350sp">
@@ -101,110 +101,118 @@
     </AbsoluteLayout>
 
     <androidx.appcompat.widget.AppCompatCheckBox
-        android:layout_below="@+id/pic"
+        android:layout_toRightOf="@+id/pic"
         android:id="@+id/cbarms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="40dp"
         android:text="arms"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:textSize="20sp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
-        android:layout_below="@+id/pic"
+        android:layout_toRightOf="@+id/pic"
         android:id="@+id/cbears"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
         android:text="ears"
         android:textSize="20sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbarms"
         android:id="@+id/cbeyebrows"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="40dp"
         android:text="eyebrows"
         android:layout_marginTop="3dp"
         android:textSize="20sp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbears"
         android:id="@+id/cbeyes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="180dp"
         android:text="eyes"
         android:textSize="20sp"
         android:layout_marginTop="3dp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbeyebrows"
         android:id="@+id/cbglasses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="40dp"
         android:text="glasses"
         android:layout_marginTop="3dp"
         android:textSize="20sp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbeyes"
         android:id="@+id/cbhat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="180dp"
         android:text="hat"
         android:textSize="20sp"
         android:layout_marginTop="3dp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbglasses"
         android:id="@+id/cbmouth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="40dp"
         android:text="mouth"
         android:layout_marginTop="3dp"
         android:textSize="20sp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbhat"
         android:id="@+id/cbmustache"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="180dp"
         android:text="mustache"
         android:textSize="20sp"
         android:layout_marginTop="3dp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbmouth"
         android:id="@+id/cbnose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="40dp"
         android:text="nose"
         android:layout_marginTop="3dp"
         android:textSize="20sp"
         />
 
     <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/pic"
         android:layout_below="@+id/cbmustache"
         android:id="@+id/cbshoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="180dp"
         android:text="shoes"
         android:textSize="20sp"
         android:layout_marginTop="3dp"
